@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A JavaScript project</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h2 class="title">White Board</h2>
+        <span id="dt">DATE AND TYIme</span>
+        <div class="options">
+          <select id="stroke-thickness">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <input id="stroke-color" type="color"/>
+          <span class="clear-icon">&#x2715;</span>
+        </div>
+      </header>
+      <main id="main">
+        <canvas id="canvas" width="400px" height="400px"></canvas>
+      </main>
+      <footer>
+        <span>- Ajaz</span>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
